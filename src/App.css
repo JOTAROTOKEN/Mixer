@@ -1,0 +1,118 @@
+.header {
+    background-color: #121212;
+}
+
+.marquee-header {
+    border-top: 2px solid black;
+}
+
+body {
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.menu-bar a {
+    text-decoration: none !important;
+}
+
+.menu-button {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.menu-button-active {
+    background-color: #2F2F2C;
+    border: 1px solid #363733;
+}
+
+.connect-wallet {
+    font-weight: bold;
+    padding: 8px 13px;
+    border-radius: 5px;
+    height: min-content;
+}
+
+.grey-button {
+    background: #1E2023 !important;
+    border: 1px solid #292929 !important;
+}
+
+.account-button {
+    overflow: visible;
+    height: min-content;
+}
+
+.account-button>img {
+    margin-right: 15px;
+}
+
+.account-button .dropdown-wallet {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 100;
+}
+
+.account-button .dropdown-wallet .main-content {
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background: #121212;
+    border: 1px solid #282828;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account-button .dropdown-wallet .main-content .action-button {
+    color: #9C9DA6;
+    width: 15rem;
+    justify-content: space-between;
+}
+
+.account-button .dropdown-wallet .main-content .scan-link {
+    color: #9C9DA6;
+    text-decoration: none !important;
+    text-transform: none;
+}
+
+.account-button .dropdown-wallet .main-content .scan-link svg {
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+.connect-modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect-modal {
+    background: #1E2023;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #37383A;
+    color: white;
+}
+
+.connect-modal .wallet-bar {
+    background: #292B2E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-upppercase {
+    text-transform: uppercase;
+}
