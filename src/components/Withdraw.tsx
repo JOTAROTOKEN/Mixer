@@ -160,7 +160,7 @@ export const Withdraw:React.FC<CommonPageProps> = ({toRefresh, setToRefresh}) =>
                                         {chain?.name}
                                     </Typography>
                                 </Grid2>
-                                <Button variant="contained" color="primary">
+                                <Button variant="contained" color="primary" onClick={handleWithdraw}>
                                     WITHDRAW
                                 </Button>
                             </Grid2>
